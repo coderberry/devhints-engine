@@ -4,6 +4,7 @@ import { useSheetContext } from '../SheetTemplate'
 
 // Components
 import CommentsArea from '../../web-comments/CommentsArea'
+import CodefundBanner from '../../web-components/CodefundBanner'
 import IntroContent from '../../web-components/IntroContent'
 import MainHeading from '../../web-components/MainHeading'
 import MiniMarkdown from '../../web-components/MiniMarkdown'
@@ -66,6 +67,8 @@ export const SheetTemplateView = () => {
             <MiniMarkdown source={intro} />
           </IntroContent>
         ) : null}
+
+        <CodefundBanner />
 
         {/* Post content */}
         <PostContent className='post-content MarkdownBody' {...{ htmlAst }} />
