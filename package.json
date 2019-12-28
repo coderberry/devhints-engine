@@ -96,7 +96,7 @@
   "scripts": {
     "ci": "run-s lint test",
     "build": "gatsby build",
-    "develop": "rm -rf .cache; env DEBUG='app:*' gatsby develop --port ${PORT:-19336}",
+    "develop": "rm -rf .cache; env DEBUG='app:*' gatsby develop --port ${PORT:-19336} --host 0.0.0.0",
     "tsc": "tsc",
     "lint": "run-s -l tslint:check prettier:check tsc",
     "tslint:check": "tslint --project .",
