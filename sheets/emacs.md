@@ -2,7 +2,7 @@
 title: Emacs
 category: Apps
 updated: 2019-01-04
-tags: [WIP]
+tags: [WIP, Featured]
 ---
 
 ## Shortcuts

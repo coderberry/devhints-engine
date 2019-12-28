@@ -2,6 +2,7 @@
 path: /ranger
 title: Ranger
 category: CLI
+tags: [Featured]
 ---
 
 ## Basics

@@ -9,6 +9,7 @@ import CodefundBanner from './CodefundBanner'
 import PagesList from './PagesList'
 import SiteHeader from './SiteHeader'
 import TopNav from './TopNav'
+import FeaturedPages from '../web-featured-pages/FeaturedPages'
 
 export interface Props {
   recentlyUpdated: SiteLink[]
@@ -35,11 +36,16 @@ export const RootPage = (props: Props) => {
       <HomeMeta />
       <CommonHead />
       <TopNav />
+
       <div className='body-area -slim'>
         <SiteHeader />
         <LiveSearchInput />
         <CodefundBanner />
+      </div>
 
+      <FeaturedPages />
+
+      <div className='body-area -slim'>
         <PagesList title={recentlyUpdatedLabel} links={recentlyUpdated} />
 
         {Object.keys(groups).map((group: string) => (
