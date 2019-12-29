@@ -71,6 +71,10 @@ const siteMetadata = {
     hostname: 'devhints.io',
     id: 'UA-106902774-1'
   },
+  site: {
+    // Canonical host
+    host: 'https://devhints.io'
+  },
   disqus: {
     enabled: true,
     host: 'devhints.disqus.com'

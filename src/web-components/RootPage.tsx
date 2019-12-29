@@ -4,12 +4,12 @@ import useSiteContent from '../gatsby-hooks/useSiteContent'
 import CommonHead from '../gatsby-shell/comps/CommonHead'
 import { HomeMeta } from '../gatsby-shell/Meta'
 import { GroupedSiteLinks, SiteLink } from '../types/types'
+import FeaturedPages from '../web-featured-pages/FeaturedPages'
 import { LiveSearchInput } from '../web-search'
 import CodefundBanner from './CodefundBanner'
 import PagesList from './PagesList'
 import SiteHeader from './SiteHeader'
 import TopNav from './TopNav'
-import FeaturedPages from '../web-featured-pages/FeaturedPages'
 
 export interface Props {
   recentlyUpdated: SiteLink[]
